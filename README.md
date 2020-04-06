@@ -1,2 +1,2 @@
-# Aplica-o
+# Aplicacao
 Aplicando estudos de JavaScript
