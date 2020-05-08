@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Operadores Lógicos - JS</title>
+		<script>
+
+			//true//
+			/* if (2 == 2 && 3 >= 2 && 'a' == 'b'){
+				document.write('verdadeiro')
+			}else{
+				document.write('falso')
+			} */
+
+		/* if (2 == 2 || 3 >= 2 || 'a' == 'b'){
+				document.write('verdadeiro')
+			}else{
+				document.write('falso')
+			} */
+
+			/* negação //
+			if (!(2 == 2)){
+				document.write('verdadeiro')
+			}else{
+				document.write('falso')
+			}	*/
+			var nota = prompt('Digite a nota do aluno:')
+			var faltas = prompt('Digite as faltas do aluno:')
+			var media = 7
+			var faltas_permmitidas = 15
+
+			if (nota >= media && faltas <= faltas_permmitidas) {
+				document.write('Aprovado!')
+			}else{
+				document.write('Reprovado!')
+			}
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
