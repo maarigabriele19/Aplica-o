@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Desafio Aritmético - JS</title>
+		<script>
+
+			// Fazer a soma ou subtraçao de números informados pelo usuário //
+			
+			var n1 = prompt('Digite um número:')
+			var operacao = prompt('Digite a operação a ser efetuada:')
+			var n2 = prompt('Digite um número:')
+
+			function calculo(n1, n2, operacao){
+				n1 = parseFloat(n1)
+				n2 = parseFloat(n2)
+
+				var resultado = 0
+
+				if (operacao == 'soma') {
+					return n1 + n2
+				}
+
+				if (operacao == 'subtração') {
+					return n1 - n2
+				}
+
+				return resultado
+			}
+
+			document.write('O resultado é: ' + calculo(n1,n2,operacao))
+
+			
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>

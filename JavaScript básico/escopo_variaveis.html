@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Escopo de variáveis - JS</title>
+		<script>
+			// 3 escopos: Global, função e bloco //
+			var serie = 'Casa de papel'
+			// Escopo de bloco //
+			// serie2 sofre hoisting: elevação de escopo //
+			if (true) {
+				var serie2 = ' el dragon'
+				document.write(serie)
+			}
+
+			document.write(serie2)
+
+			document.write('<br />')
+
+			function x(){
+				document.write(serie)
+				document.write(serie2)
+			}
+			x() // chamando função //
+			/* OBS
+			serie é uma var de escopo global que pode ser acessada em bloco e função */
+
+
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
