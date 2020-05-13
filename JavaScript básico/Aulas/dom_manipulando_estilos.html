@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> DOM Manipulando estilos - JS</title>
+		<script>
+			function modifica(cor){
+				//alert(cor)
+				document.getElementById('quadrado').style.background = cor
+			}
+		</script>
+	</head>
+	<body>
+		<h3>Manipulando estilos</h3>
+
+		<button type="button" onclick="modifica('#ff0000')">Vermelho</button>
+		<button type="button" onclick="modifica('#ffff00')">Amarelo</button>
+		<button type="button" onclick="modifica('#00FF00')">Verde</button>
+
+		<hr>
+		<div style="border: solid 1px #000; width: 100px; height: 100px; border-radius:50%;-moz-border-radius:50%; -webkit-border-radius:50%;" id="quadrado">
+
+		</div>
+
+	</body>
+</html>
